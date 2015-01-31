@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">giroNotifier</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="save">start auszug</string>
+    
+    
+     <string name="button_tweet">button_tweet</string>
+     <string name="hint_status">hint_status</string>
+   <string name="textlabel">textlabel</string>
+   
+   
+    <string name="hello">Hello World, FragmentDialogDemo!</string>
+   
+    
+     <string name="dialogText">text .</string>
+    
+</resources>
