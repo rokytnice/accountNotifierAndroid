@@ -25,7 +25,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Hashtable;
 
-import org.kapott.hbci.callback.HBCICallbackIOStreams;
 import org.kapott.hbci.exceptions.AbortedException;
 import org.kapott.hbci.exceptions.HBCI_Exception;
 import org.kapott.hbci.exceptions.InvalidUserDataException;
