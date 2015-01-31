@@ -36,20 +36,20 @@ public class UmsatzAbrufen extends HBCIAsyncTask
         Konto myAccount1 = passport.getAccounts()[1];
         Konto myAccount2 = passport.getAccounts()[2];
         
-        myAccount.number="490058500";
+        myAccount.number="4900xxxxx";
         
         // gegenkonto
 //        Konto targetAccount=new Konto("DE", "20041133", "4900585");
 //        targetAccount.name="Andre Rochlitz";
 //        targetAccount.bic="COBADEHD001";
-//        targetAccount.iban="DE53200411330490058500";
+//        targetAccount.iban="DE532004113304900xxxxx";
         // sepa-ueberweisung erzeugen
         HBCIJob job=handler.newJob("SaldoReqAll");
         	    		 
         // daten fuer eigenes konto setzen
 //        job.setParam("acc", myAccount2);
         job.setParam("my.blz", "20041133");
-        job.setParam("my.number", "490058500");
+        job.setParam("my.number", "4900xxxxx");
         job.setParam("my.subnumber", "00");
         
         // daten fuer gegenkonto setzen
@@ -61,7 +61,7 @@ public class UmsatzAbrufen extends HBCIAsyncTask
         
 //        HBCIJob job=handler.newJob("SaldoReqAll");
 //        job.setParam("my.bic", "COBADEHD001");
-//        job.setParam("my.iban", "DE53200411330490058500");
+//        job.setParam("my.iban", "DE532004113304900xxxxx");
         // job hinzufuegen
         job.addToQueue();
         

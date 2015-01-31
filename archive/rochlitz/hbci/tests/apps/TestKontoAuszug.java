@@ -46,7 +46,7 @@ public class TestKontoAuszug extends BasisApp
         	    		 
         // daten fuer eigenes konto setzen
         job.setParam("my.blz", "20041133");
-        job.setParam("my.number", "490058500");
+        job.setParam("my.number", "4900xxxxx");
         job.setParam("my.subnumber", "00");
         Calendar calStart = new GregorianCalendar(2015, 00, 01);
         Calendar calEnd = new GregorianCalendar(2015, 00, 01);
